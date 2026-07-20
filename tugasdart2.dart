@@ -5,17 +5,18 @@ void main() {
     double kehadiran = 75;
 
     // hitung rata rata
-    double ratarata = ("uts & uas")/2;
+    double rataRata = (uts + uas) / 2;
 
     // syarat kelulusan
-    if(nilai > 70); {
-        print {Kategori = "Lulus"}
-    if(nilai < 70); {
-        print {Kategori = "Tidak Lulus"}
+    if(rataRata > 70) {
+        print("Kategori = Lulus");
+    }
+    if(rataRata < 70) {
+        print (Kategori = "Tidak Lulus")
     if(kehadiran > 75); {
-        print {Kategori = "Lulus"}
+        print (Kategori = "Lulus")
     if(kehadiran < 75); {
-        print {Kategori = "Tidak Lulus"}
+        print (Kategori = "Tidak Lulus")
     }
 
     // output hasil lulus atau tidak lulus
