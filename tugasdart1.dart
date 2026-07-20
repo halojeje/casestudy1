@@ -5,9 +5,11 @@ void main() {
     print("Nama = $nama, Usia = $usia");
 
     double tinggiBadan = 175;
+    print("Tinggi Badan = $tinggiBadan cm");
 
     // status aktif keanggotaan
     bool statusAktif = true;
+    print("statusAktif = $statusAktif");
 
     List daftarBukuFavorit = ["Haruki Minami - 1972","Dan Brown","Little World"];
     print(daftarBukuFavorit);
