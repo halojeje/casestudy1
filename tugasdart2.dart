@@ -8,23 +8,24 @@ void main() {
     double rataRata = (uts + uas) / 2;
 
     // syarat kelulusan
-    if(rataRata > 70) {
-        print("Kategori = Lulus");
+    if(rataRata >= 70) {
+        print("Lulus");
     }
     if(rataRata < 70) {
-        print (Kategori = "Tidak Lulus")
-    if(kehadiran > 75); {
-        print (Kategori = "Lulus")
+        print ("Tidak Lulus");
+    }
+    if(kehadiran >= 75) {
+        print ("Lulus");
+    }
     if(kehadiran < 75); {
-        print (Kategori = "Tidak Lulus")
+        print ("Tidak Lulus");
     }
 
     // output hasil lulus atau tidak lulus
     if(Lulus) {
-        print {Lulus};
+        print ("Kategori = Lulus");
         else if(Tidak Lulus) {
-            print {Tidak Lulus};
+            print ("Kategori"= "Tidak Lulus");
         }
     }
     }
-}
