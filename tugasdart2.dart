@@ -22,10 +22,10 @@ void main() {
     }
 
     // output hasil lulus atau tidak lulus
+    bool Lulus = (rataRata >= 70 && kehadiran >= 75);
     if(Lulus) {
         print ("Kategori = Lulus");
-        else if(Tidak Lulus) {
-            print ("Kategori"= "Tidak Lulus");
-        }
+    } else {
+        print ("Kategori = Tidak Lulus");
     }
     }
